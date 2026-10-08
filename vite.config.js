@@ -7,6 +7,8 @@ export default defineConfig({
         main: 'index.html',
         login: 'login.html',
         choose: 'choose.html',
+        rooms: 'rooms.html',
+        room: 'room.html',
       },
     },
   },

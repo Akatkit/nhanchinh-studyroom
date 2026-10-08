@@ -79,3 +79,15 @@ footer { text-align: center; padding: 24px; color: #6b7280; font-size: 0.9rem; }
    }
    .char span { display: block; font-size: 1rem; margin-top: 8px; font-weight: 700; }
    .char.selected { border-color: #4f46e5; background: #eef2ff; }
+
+   a.btn-primary, a.btn-secondary { text-align: center; text-decoration: none; }
+.room-list { display: grid; gap: 12px; }
+#game { width: 100%; max-width: 420px; margin: 0 auto; }
+.timer-bar {
+  max-width: 420px; margin: 12px auto; padding: 16px;
+  background: white; border-radius: 16px; text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+#timer { font-size: 2.6rem; font-weight: 700; margin: 4px 0; }
+.timer-bar .row { display: flex; gap: 10px; margin-top: 10px; }
+.timer-bar button { flex: 1; margin: 0; }
